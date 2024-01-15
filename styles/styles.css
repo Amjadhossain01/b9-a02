@@ -1,0 +1,51 @@
+/* Shared Styles */
+body{
+  font-family: 'Mulish', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* Nav related styles */
+
+nav {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+nav > ul{
+  display: flex;
+  right: 100;
+}
+nav li{
+  list-style: none;
+  margin-top: 33px;
+  margin-right: 100px;
+  gap: 44px;
+
+
+}
+nav a{
+  text-decoration: none;
+  color:#424247;
+font-size: 17px;
+}
+nav img{
+ margin-right: 16px;
+  margin-left: 100px;
+ width: 48px;
+height: 56px;
+margin-top: 29px;
+}
+.main-title{
+  color: #131318;
+font-size: 36px;
+font-weight: 800;
+display: flex;
+}
+
+/* Span item  */
+
+.span-first{
+  color: #FF5400;
+}
