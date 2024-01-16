@@ -1,0 +1,33 @@
+/* responsive for mobile devices */
+
+@media screen and (max-width: 576px) {
+  .nav{
+    flex-direction: column;
+  }
+  .section-second{
+    width: 335px;
+height: 483px;
+  }
+  .container-main{
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+  }
+  .main-item{
+    flex-direction: column;
+    padding-left: 5px;
+  }
+
+  .container-child{
+    width: 335px;
+height: 175.393px;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 10px;
+    padding-left: 0;
+    padding: 10px;
+  }
+  .row{
+    flex-direction: column;
+  }
+}
